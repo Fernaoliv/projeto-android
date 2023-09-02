@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'tech';
+    src: url(fontes/idroid.otf);
+}
+main {
+    background-color: white;
+    padding: 0px 20px;
+    text-align: justify;
+    box-shadow: 0px 0px 10px #0000006e;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 30px;
+
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+main p {
+    text-indent: 30px;
+    margin: 15px 0px;
+    text-align: justify;
+    line-height: 2em;
+    
+}
+
+main strong {
+    color: var(--cor4);
+    font-weight: bold;
+    padding: 2px 6px;
+}
+
+main a {
+    background-color: var(--cor1);
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    padding: 2px 6px;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor4);
+}
+
+main img {
+    width: 100%;
+}
+
+img.peq {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+picture {
+    margin: 1px;
+}
+
+div.video {
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+article > h1 {
+    font-family: 'tech';
+    font-size: 2em;
+    color:  #065c06;
+    text-align: left;
+    margin: 20px 0px 20px 0px;
+}
+
+h2 {
+    font-family: 'tech';
+    font-size: 1.3em;
+    color: var(--cor4);
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
+}
+footer {
+    background-color:var(--cor5);
+    padding: 5px;
+    text-align: center;
+    color: lightgray;
+    font-size: 0.8em;
+}
+.fodesta {
+    color: white;
+    font-weight: bolder;
+}
+
+#mais {
+    background-color: var(--cor1);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.199);
+}
+
+#mais > ul {
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\00a0\00a0';
+}
+
+#destaque {
+    background-color: var(--cor5);
+    padding: 10px;
+    margin: -10px -10px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    font-weight: bolder;
+    text-indent: 9px;
+}
+
+#video > iframe {
+    margin: 20px 275px;
+}
+
+a.externo::after {
+    content: '\00a0\1F517';
+}
+
+abbr {
+    text-decoration: none;
+}
+
